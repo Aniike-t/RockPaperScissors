@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="src/index.js" async></script>
+    <link href='https://fonts.googleapis.com/css?family=Press Start 2P' rel='stylesheet'>
+    <title>RPS</title>
+</head>
+<body>
+    <div class="infocon">
+        <h1>Rock Paper Scissors</h1>
+        <h1 id="wl"></h1>
+    </div>
+    <div class="details">
+        <h3 >Tries:<span id="try">0</span>/5</h3>
+        <h3 >Wins :<span id="wins">0</span></h3>
+        <h3 >Lose :<span id="lose">0</span></h3>
+        <h3 >Ties :<span id="ties">0</span></h3>
+        <h3>__________</h3>
+        <h2 >WINNER:<br><br><span id="total"></span></h2><br>
+        <h3>__________</h3>
+        <button id="reset" onclick="reset()">RESET</button><br>
+    </div>
+    <div>
+        <button  id="c1" >
+            <img src="assets/paper.png" alt="paper" style="transform: rotate(90deg);" >
+        </button>
+        <button  id="c2" >
+            <img src="assets/rock.png" alt="rock" style="transform: rotate(90deg);" >
+        </button>
+        <button  id="c3" >
+            <img src="assets/sissors.png" alt="scissors" style="transform: rotate(90deg);" >
+        </button>
+        
+    </div>
+        <button id="b1" >
+            <img src="assets/paper.png" alt="paper" style="transform: rotate(-90deg);">
+        </button>
+        <button id="b2" >
+            <img src="assets/rock.png" alt="rock" style="transform: rotate(-90deg);">
+        </button>
+        <button id="b3" >
+            <img src="assets/sissors.png" alt="scissors" style="transform: rotate(-90deg);">
+        </button>
+</body>
+</html>
